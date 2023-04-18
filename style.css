@@ -1,0 +1,45 @@
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+header{
+    text-align: center;
+    background: rgb(46, 96, 119);
+    padding: 1em;
+}
+h1{
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 1em;
+   
+}
+section{
+    background: lightblue;
+    padding: 0 20%;
+}
+
+.card-grid{
+    /* display: flex;
+    justify-content: center; */
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+    padding: 10px;
+}
+.card{
+    /* width: 32%; */
+    height: 100%;
+    background: white;
+    border-radius: 25%;
+}
+footer{
+    color: white;
+    background: gray;
+    text-align: center;
+    padding: 0.25em;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
