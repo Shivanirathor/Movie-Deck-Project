@@ -37,8 +37,6 @@
     
     background: lightblue;
     
-    padding: 0 20%;
-    
     }
     
     .card-grid {
@@ -53,7 +51,7 @@
     
     column-gap: 10px;
     
-    padding: 10px;
+    padding: 10px 0;
     
     }
     
